@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    background-color:black;
+    width: 100;
+    height: 100px;
+}
+.header h1 {
+    font-family: Verdana;
+    color: #29f700;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.header ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right:30px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+}
+.header ul li a:hover{
+    background-color: grey;
+    padding: 10px;
+    }
+.header input {
+    float: right;
+    width:100px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 2px solid #29f700;
+    text-align: center;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+}
+.header button{
+    float:right;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #29f700;
+    border-radius: 5px;
+    border: 2px solid #29f700;
+    letter-spacing: 2px;
+}
+.section {
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(chef3.jpg);
+width:100%;
+height:100vh;
+background-position: center;
+background-size: cover;
+}
+.main {
+color: white;
+width: 100%;
+height: fit-content;
+
+}
+.main h2 {
+    text-align: left;
+    text-decoration: underline;
+    padding-top: 50px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+}
+.main p{
+    padding-right: 20px;
+    width: 100%;
+    text-align: center;
+}
+.email{
+    text-align: center;
+    margin: 20px;
+}
+.email input {
+padding: 5px;
+width: 300px;
+text-align: center;
+border: 3px solid #29f700;
+border-radius: 5px;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.email button {
+    padding: 5px;
+    width: auto;
+    text-align: center;
+    background-color: #29f700;
+    color: #29f700;
+    border-radius: 5px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.head {
+    background-color: #29f700;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    border: 1px solid #ddd;
+}
+ #table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    
+  }
+
+  #table tr:nth-child(even){background-color: #f2f2f2;}
+
+  #table tr:hover {background-color: #ddd;}
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #29f700;
+    color: white;
+  }
+  .model{
+    background: linear-gradient(rgba(99, 108, 89, 0.5),rgba(20, 244, 12, 0.5));
+    padding: 20px;
+  }
+  .model h1 {
+    padding-top: 12px;
+    text-align: center;
+  }
+  .model h2 {
+    padding-top: 12px;
+    text-align: center;
+  }
+  .model h4 {
+    padding-top: 12px;
+  }
+  .model p {
+    margin-top: 12px;
+    color: #110f0f;
+  }
+  .model img {
+    padding-left: 25%;
+    padding-top: 12px;
+    opacity: 0.8;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding-left: 12px;
+    padding-top: 12px;
+  }
+  .footer p{
+    padding-top: 12px; 
+  }
+  .footer textarea{
+    width: 50%;
+    height: 20px;
+    margin-top: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+  }
+  .footer button {
+    padding: 5px;
+    width: auto;
+    text-align: center;
+    background-color: #29f700;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+  }
